@@ -128,6 +128,7 @@ const matrixGenerator = (cardValues, size = 6) => {
             //if both cards match add matched class so these cards would beignored next time
             firstCard.classList.add("matched");
             secondCard.classList.add("matched");
+            countclicks=0;
             //set firstCard to false since next card would be first now
             firstCard = false;
             //winCount increment as user found a correct match
